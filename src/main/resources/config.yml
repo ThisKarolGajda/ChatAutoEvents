@@ -1,0 +1,27 @@
+AutoEvents:
+  RewriteText:
+    name: 'Mixed'
+    words: 'super;server'
+    reward:
+      min: 100
+      max: 300
+  WriteText:
+    name: 'Words'
+    words: 'super;server'
+    reward:
+      min: 50
+      max: 150
+  RandomEvent:
+    every:
+      min: 15
+      max: 40 #in minutes
+
+
+
+message:
+  EventStarting: '&7Event &f&l%name% &7starts soon!'
+  EventStarted: '&7Event &f&l%name% &7started!'
+  RewriteText: '&7Find a word from this mix: &f&l%word%&7!'
+  WriteText: '&7Write this word: &f&l%word%&7!'
+  WinnerMessage: '&6First person was&7: &f&l%player%'
+
